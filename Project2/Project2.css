@@ -1,0 +1,390 @@
+
+/*styling properties taken from -
+https://www.w3schools.com/css/default.asp*/
+body
+{
+  min-width:800px;
+}
+
+#background
+{
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+}
+
+#title
+{
+  width: 220px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+#title > p
+{
+  margin-top: 0px;
+}
+
+#subtitle
+{
+  font-family: Times;
+  font-size: 15px;
+  margin: 0px 0px 30px;
+}
+
+p
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.top
+{
+  font-weight: bold;
+  color: #3366cc;
+  font-family: sans-serif;
+}
+
+.top:hover
+{
+  text-decoration: underline;
+}
+
+ul
+{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.first
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.second
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.third
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.fourth
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#English
+{
+  padding-right: 95px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+}
+
+#Spanish
+{
+  padding-left: 75px;
+  padding-top: 0px;
+}
+
+#Japanese
+{
+  padding-right: 190px;
+  padding-top: 10px;
+}
+
+#Deutsch
+{
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+#Russian
+{
+  padding-right: 300px;
+  padding-top: 10px;
+}
+
+#French
+{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+#Italian
+{
+  padding-right: 150px;
+  padding-top: 10px;
+}
+
+#Chinese
+{
+  padding-left: 130px;
+  padding-top: 10px;
+}
+
+#Portugues
+{
+  padding-right: 110px;
+  padding-top: 10px;
+}
+
+#Polish
+{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+.fifth
+{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#input
+{
+  border: 1px solid grey;
+  width: 350px;
+  background: white;
+  height: 40px;
+  margin-left: 100px;
+  margin-right: 0px;
+  padding-right: 10px;
+}
+
+::placeholder
+{
+  font-size: 13px;
+  text-align: right;
+}
+
+#button
+{
+  width: 4%;
+  background: #36c;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+  height: 45px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  border-right: 0px;
+  border-right: 0px;
+}
+
+#button:hover
+{
+  background: royalblue;
+}
+
+#whole-bar
+{
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#line
+{
+  width: 1400px;
+  padding-top: 30px;
+}
+
+#name
+{
+  font-weight: bold;
+  color: #3366cc;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+#drop-down
+{
+  background-color: WhiteSmoke;
+  border: 1px solid grey;
+  height: 40px;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-left: 250px;
+}
+
+#drop-down:hover
+{
+  background-color: white;
+}
+
+.footer-top
+{
+  color: #3366cc;
+  font-family: sans-serif;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.footer-bottom
+{
+  font-family: sans-serif;
+  color: dimgray;
+  font-size: 14px;
+  text-align: left;
+  width: 200px;
+}
+
+.list-image
+{
+  width: 40px;
+}
+
+ul
+{
+  padding-left: 5px;
+}
+
+table
+{
+  width: 120%;
+}
+
+#bottom
+{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#side-img
+{
+  width: 370px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+#very-last-footer
+{
+  font-family: sans-serif;
+  color: dimgray;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.hyperlink-footer
+{
+  color: #3366cc;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 1247px)
+{
+
+  .list-image
+  {
+    width: 30px;
+  }
+
+  table
+  {
+    width: 50%;
+  }
+
+  #side-img
+  {
+    width: 340px;
+  }
+
+}
+
+@media screen and (max-width: 1096px)
+{
+  body
+  {
+    background-image: url('back-small.png');
+    background-repeat: no-repeat;
+    background-position: 50% 15%;
+  }
+
+  .list-image
+  {
+    width: 30px;
+  }
+
+  table
+  {
+    width: 50%;
+  }
+
+  #button
+  {
+    width: 5%;
+  }
+
+}
+
+@media screen and (max-width: 1106px)
+{
+  .list-image
+  {
+    width: 30px;
+  }
+
+  table
+  {
+    width: 10%;
+  }
+
+  .footer-bottom
+  {
+    width: 150px;
+  }
+
+  #button
+  {
+    width: 5%;
+  }
+
+}
+
+@media screen and (max-width: 956px)
+{
+  .list-image
+  {
+    width: 30px;
+  }
+
+  table
+  {
+    width: 10%;
+  }
+
+  .footer-bottom
+  {
+    width: 100px;
+  }
+
+  #button
+  {
+    width: 5%;
+  }
+}
+
+@media screen and (max-width: 850px)
+{
+  #button
+  {
+    width: 6%;
+  }
+}
